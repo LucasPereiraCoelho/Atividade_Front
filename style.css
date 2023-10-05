@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.resultados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 500px;
+}
+
+.card{
+    background-color: #ddd;
+    border: 1px solid black;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.form{
+    text-align: center;
+}
